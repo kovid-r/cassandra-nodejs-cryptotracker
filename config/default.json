@@ -1,0 +1,11 @@
+{
+    "dbSettings": {
+        "cloud": {
+            "secureConnectBundle": "Enter your path/to/secure-connect-database_name.zip here!"
+        },
+        "credentials": {
+            "username": "Your clientId will go here!",
+            "password": "Your clientSecret will go here!"
+        }
+    }
+}
