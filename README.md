@@ -29,7 +29,14 @@ Fetch the Astra Database ID and go to the following link using that ID:
 
 ```https://astra.datastax.com/org/{ASTRA-DATABASE-ID}/settings/tokens```
 
-Use the official [Astra documentation for Node.js](https://docs.datastax.com/en/astra/docs/connecting-to-your-database-with-the-datastax-nodejs-driver.html) to download the secure bundle and to create an authentication token.
+Use the official [Astra documentation for Node.js](https://docs.datastax.com/en/astra/docs/connecting-to-your-database-with-the-datastax-nodejs-driver.html) to download the secure bundle and to create an authentication token. The authentication token will give you `clientId` and `clientSecret`.
+
+Replace the following values in the `default.json` file:
+1. `path/to/secure-connect-database_name.zip`
+2. `clientId`
+3. `clientSecret`
+
+Make sure you do not commit the `default.json` file back with real values.
 
 ## Usage
 
@@ -38,8 +45,6 @@ You're all set. Now, you're ready to start fetching data from the CoinGecko API 
 ```
 npm start
 ```
-
-You should now be able to see records flowing into the database table **coingecko.coin_prices**.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
