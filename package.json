@@ -1,0 +1,19 @@
+{
+  "name": "cassandra-nodejs-cryptotracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Kovid Rathee",
+  "license": "ISC",
+  "dependencies": {
+    "cassandra-driver": "^4.6.2",
+    "coingecko-api": "^1.0.10",
+    "config": "^3.3.6",
+    "json": "^10.0.0",
+    "superagent": "^6.1.0",
+    "uuid": "^8.3.2"
+  }
+}
